@@ -2,7 +2,7 @@
 
 ![header.png](header.png)
 
-> This plugin for Obsidian.md allows you to perform simple AWS DynamoDB queries within your markdown documentation. It was originally designed to aid in single table design.
+> This plugin for Obsidian.md allows you to perform simple AWS DynamoDB queries within your markdown documentation. It was originally designed to aid in single table design by providing a rapid prototyping and querying document during data access pattern discovery.
 
 You create a code block with the type `dynamodb` and inside it write your query. You can use PartiQL or pass the parameters just as you would when using the DynamoDB client in the AWS SDK.
 
