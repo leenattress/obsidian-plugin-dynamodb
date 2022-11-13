@@ -137,7 +137,7 @@ export default class DynamoDbPlugin extends Plugin {
 
 
 		// This adds a settings tab so the user can configure various aspects of the plugin
-		this.addSettingTab(new SampleSettingTab(this.app, this));
+		this.addSettingTab(new DynamoDBSettingTab(this.app, this));
 
 	}
 
@@ -156,7 +156,7 @@ export default class DynamoDbPlugin extends Plugin {
 
 
 
-class SampleSettingTab extends PluginSettingTab {
+class DynamoDBSettingTab extends PluginSettingTab {
 	plugin: DynamoDbPlugin;
 
 	constructor(app: App, plugin: DynamoDbPlugin) {
