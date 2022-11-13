@@ -1,0 +1,38 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.dynamodbtable {
+  margin: 0 0 1em 0;
+}
+
+.dynamodbtable-error {
+  color: red;
+  font-size: smaller;
+}
+
+.dynamodbtable-title {
+  color: rgb(79, 79, 79);
+}
+
+.dynamodbtable__wide {
+  /* make the table responsive */
+  overflow-x: auto;
+  width: 100%;
+}
+
+.dynamodbtable__header {
+  font-weight: bold;
+  font-size: larger;  
+}
+
+.ribbonDbIcon {
+  background: rgb(49,47,180);
+  background: linear-gradient(25deg, rgba(49,47,180,1) 0%, rgba(94,133,250,1) 100%);
+  color: white;
+}
