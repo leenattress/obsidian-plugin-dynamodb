@@ -1,9 +1,9 @@
 {
 	"id": "obsidian-plugin-dynamodb",
 	"name": "AWS DynamoDb For Obsidian",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "This plugin lets you interact with AWS DynamoDb within notes.",
+	"description": "Query AWS DynamoDb and render tables inside documents.",
 	"author": "Lee Nattress",
 	"authorUrl": "https://www.leenattress.com/",
 	"isDesktopOnly": false
