@@ -1,5 +1,7 @@
 # DynamoDB Query Plugin For Obsidian
 
+![header.png](header.png)
+
 > This plugin for Obsidian.md allows you to perform simple AWS DynamoDB queries within your markdown documentation. It was originally designed to aid in single table design.
 
 You create a code block with the type `dynamodb` and inside it write your query. You can use PartiQL or pass the parameters just as you would when using the DynamoDB client in the AWS SDK.
@@ -17,6 +19,16 @@ You create a code block with the type `dynamodb` and inside it write your query.
 - ✅ Quick table info (with GSI and LSI details)
 - ❌ Deals with complex nested objects
 - ❌ Deals with large amounts of records (remember to limit)
+
+
+## Commands
+
+> Press cmd + p to bring up the command search and type...
+
+- `dynamodb-set-region` to change the region your tables are in
+- `dynamodb-info-command` to list tables in that region and get some basic info on them, such as their global indexes, or the amount of records
+
+Note that the `dynamodb-info-command` can also be accessed by clickint the dynamo icon on your ribbon, usually located on the top left of Obsidian.
 
 ## Examples
 
